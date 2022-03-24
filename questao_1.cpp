@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 
@@ -19,9 +16,9 @@ int main(){
 	scanf("%d", &c);
 	
 	soma = a + b;
-	//Saída
+	//SaÃ­da
 	if(soma < c){
-		printf("A + B é menor que C");
+		printf("A + B Ã© menor que C");
 	}
 	else printf("   [Falso!]");
 	return 0;
