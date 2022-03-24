@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -11,7 +8,7 @@ int main(){
 	scanf("%d", &a);
 	printf("Informe B: ");
 	scanf("%d", &b);
-	//Processamento e saída
+	//Processamento e saÃ­da
 	if(a == b){
 		c = a + b;
 		printf("O resultado: %d", c);
