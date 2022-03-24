@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -13,7 +10,7 @@ int main(){
 	scanf("%d", &peso);
 	printf("Informe a altura: ");
 	scanf("%f", &altura);
-	//Processamento e saída
+	//Processamento e saÃ­da
 	resultado = (peso / (altura * altura));
 	printf("\n%.2f\n", resultado);
 	if(resultado > 30){
