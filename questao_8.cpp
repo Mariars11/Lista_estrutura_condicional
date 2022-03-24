@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -9,7 +6,7 @@ int main(){
 	int num[3], troca;
 	for(int i = 0; i < 3; i++){
 		do{
-			printf("Informe número %d: ", i + 1);
+			printf("Informe nÃºmero %d: ", i + 1);
 			scanf("%d", &num[i]);
 		}while(num[i] == num[i - 1] || num[i] == num[i - 2]);	
 	}
@@ -22,10 +19,10 @@ int main(){
 			}
 		}
 	}
-	//Saída
-	printf("\nNúmeros reordenados: ");
+	//SaÃ­da
+	printf("\nNÃºmeros reordenados: ");
 	for(int i = 0; i < 3; i++){
-		printf("\n {%dº} - número: %d", i + 1, num[i]);
+		printf("\n {%dÂº} - nÃºmero: %d", i + 1, num[i]);
 	}
 	return 0;
 }
