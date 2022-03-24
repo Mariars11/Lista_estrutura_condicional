@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -9,9 +6,9 @@ int main(){
 	int num1, num2;
 	bool checar;
 	
-	printf("Informe o número 1: ");
+	printf("Informe o nÃºmero 1: ");
 	scanf("%d", &num1);
-	printf("Informe o número 2: ");
+	printf("Informe o nÃºmero 2: ");
 	scanf("%d", &num2);
 	
 	if(num1 == num2){
@@ -23,6 +20,6 @@ int main(){
 		printf("VERDADEIRO!");
 	}
 	else printf("FALSO!");
-	//Saída
+	//SaÃ­da
 	return 0;
 }
