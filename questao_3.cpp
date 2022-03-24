@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -8,17 +5,17 @@ int main(){
 	//Entrada
 	int numero;
 	
-	printf("Informe um número inteiro: ");
+	printf("Informe um nÃºmero inteiro: ");
 	scanf("%d", &numero);
-	//Processamento e saída
+	//Processamento e saÃ­da
 	if((numero % 2) == 0){
 		printf("=============\n");
-		printf("  %d é par!", numero);
+		printf("  %d Ã© par!", numero);
 		printf("\n=============\n");
 	}
 	else{
 		printf("=============\n");
-		printf(" %d é impar!", numero);
+		printf(" %d Ã© impar!", numero);
 		printf("\n=============\n");
 	} 
 	return 0;
