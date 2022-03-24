@@ -1,6 +1,3 @@
-//disciplina: programação estruturada
-//matricula: UC21100014
-//Nome: Maria Clara Rodrigues Silva
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -14,15 +11,15 @@ int main(){
 	//Processamento
 	printf("-> MENU:");
 	printf("\n ======================================================================\n");
-	printf(" |1| -  À vista em dinheiro ou cheque, recebe 10%% de desconto\n");
-	printf(" |2| -  À vista no cartão de crédito, recebe 15%% de desconto\n");
-	printf(" |3| -  Em duas vezes, preço normal de etiqueta sem juro\n");
-	printf(" |4| -  Em duas vezes, preço normal de etiqueta mais juros de 10%%\n");
-	printf(" |0| -  Fechar a aplicação\n");
+	printf(" |1| -  Ã€ vista em dinheiro ou cheque, recebe 10%% de desconto\n");
+	printf(" |2| -  Ã€ vista no cartÃ£o de crÃ©dito, recebe 15%% de desconto\n");
+	printf(" |3| -  Em duas vezes, preÃ§o normal de etiqueta sem juro\n");
+	printf(" |4| -  Em duas vezes, preÃ§o normal de etiqueta mais juros de 10%%\n");
+	printf(" |0| -  Fechar a aplicaÃ§Ã£o\n");
 	printf(" ======================================================================\n");
 	
 	do{
-		printf("\nInforme a opção desejada: ");
+		printf("\nInforme a opÃ§Ã£o desejada: ");
 		scanf("%d", &aux);
 		switch(aux){
 			case 0:
@@ -39,16 +36,16 @@ int main(){
 			break;
 			case 3:{
 				valor_final = valor_etiqueta / 2;
-				printf("\nValor à pagar por mês: %.2f", valor_final);
+				printf("\nValor Ã  pagar por mÃªs: %.2f", valor_final);
 			}
 			break;
 			case 4:{
 				valor_final = (valor_etiqueta * 1.1) / 2;
-				printf("\nValor à pagar por mês: %.2f", valor_final);
+				printf("\nValor Ã  pagar por mÃªs: %.2f", valor_final);
 			}
 			break;		
 		}
 	}while(aux != 0);
-	//Saída
+	//SaÃ­da
 	return 0;
 }
